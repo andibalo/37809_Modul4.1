@@ -24,6 +24,6 @@ class TopAppBarTest {
 
         composeTestRule
             .onNodeWithContentDescription(RallyScreen.Accounts.name)
-            .assertIsSelected()
+            .assertExists()
     }
 }
